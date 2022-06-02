@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta name="generator" content="Hexo 3.9.0"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="士不可以不弘毅，任重而道远。"><title>最小化docker镜像 | KAMI</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//fastly.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//fastly.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//fastly.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="/css/prettify/prettify.css"><script type="text/javascript" src="//fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script type="text/javascript" src="//fastly.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="//fastly.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="//fastly.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.css"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">最小化docker镜像</h1><a id="logo" href="/.">KAMI</a><p class="description">士不可以不弘毅，任重而道远。</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/guestbook/"><i class="fa fa-book"> 留言</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">最小化docker镜像</h1><div class="post-meta">Apr 20 2020<span> | </span><span class="category"><a href="/categories/容器/">容器</a></span><script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> 阅读</span></span><span class="post-time"><span class="post-meta-item-text"> | </span><span class="post-meta-item-icon"><i class="fa fa-keyboard-o"></i><span class="post-count"> 782</span><span class="post-meta-item-text"> 字</span></span></span><span class="post-time"> | <span class="post-meta-item-icon"><i class="fa fa-clock-o"></i><span class="post-count"> 2</span><span class="post-meta-item-text"> 分钟</span></span></span></div><div class="post-content"><p>容器化架构方案中，Worker节点启动容器需要获取对应版本的镜像，不管是从本地加载镜像或发布镜像，还是从镜像仓库拉取镜像，镜像越小，越易于传输。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/thecxx/s1/img/2021/03/25/a7515e192dbb713154406040450b08a2.png" alt="运行镜像大小"></p>
+<a id="more"></a>
+<h2 id="如何构建最小化容器镜像？"><a href="#如何构建最小化容器镜像？" class="headerlink" title="如何构建最小化容器镜像？"></a>如何构建最小化容器镜像？</h2><h3 id="服务程序足够小"><a href="#服务程序足够小" class="headerlink" title="服务程序足够小"></a>服务程序足够小</h3><p>在编译服务程序时，大部分研发同学都会选择默认的方案进行编译，但对于go编程程序而言，还是有更多的优化空间的。</p>
+<ol>
+<li><strong>优化编译选项</strong></li>
+</ol>
+<ul>
+<li>如果能不使用cgo尽量不使用，如果一定要使用cgo的情况下尽量使用静态编译</li>
+<li>go build是可以采用-ldflags=”-w -s”选项去掉调试信息与符号表<ul>
+<li>-w：去掉调试信息，得到的程序就不能用gdb调试</li>
+<li>-s：去掉符号表，panic时候的stack trace就没有任何文件名/行号信息</li>
+</ul>
+</li>
+</ul>
+<ol start="2">
+<li><strong>使用压缩壳</strong></li>
+</ol>
+<ul>
+<li>网上看到很多优化镜像大小的文章，但是，从来没有看到有人提到用压缩壳的方案，也许是因为自己以前有写过压缩壳和脱壳的经历，最后选用了老牌的UPX进行压缩(主要是发现居然有linux版本的UPX)，压缩比一般在20~30%左右，但有一个问题，压缩后的程序，导入符号表被加密了，无法在压缩后ldd出依赖库，当有依赖库需要一起部署时，需要在压缩前提取</li>
+<li>如果采用压缩壳，建议在编译阶段，尽量都采用静态编译，这样打包在程序内部的依赖库也能被压缩</li>
+<li>经过压缩的程序，启动运行时会比未压缩程序稍慢，在程序大小20M-30M左右时，直观感觉能延迟0.2秒</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/thecxx/s1/img/2021/03/25/df56510465acf8ae5abcf551916e72fc.png" alt="UPX压缩指标"></p>
+<h3 id="镜像本身运行的基本环境足够小"><a href="#镜像本身运行的基本环境足够小" class="headerlink" title="镜像本身运行的基本环境足够小"></a>镜像本身运行的基本环境足够小</h3><p>优化镜像，可以在构建镜像时，分成两阶段处理，第一个阶段：<code>构建环境</code>，第二个阶段：<code>运行环境</code>。</p>
+<ol>
+<li><strong>构建环境</strong></li>
+</ol>
+<p>主要用于构建程序使用，一般是提前构建好的成套环境，事先安装好了一系列构建环节必备的工具，如：gcc、go、glibc等等，保证程序编译正确，而且构建镜像可以作为通用构建镜像使用。</p>
+<ol start="2">
+<li><strong>运行环境</strong></li>
+</ol>
+<p>主要在构建结束后，将必要的服务程序与依赖文件复制到运行镜像中，最终将运行镜像打包提交至仓库，而运行镜像可采用scratch空镜像作为基础镜像构建，确保系统环境最小化。</p>
+<h3 id="对比"><a href="#对比" class="headerlink" title="对比"></a>对比</h3><table>
+<thead>
+<tr>
+<th>—</th>
+<th style="text-align:center">build</th>
+<th style="text-align:center">build -ldflags=’-w’</th>
+<th style="text-align:center">upx -9</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>程序文件</td>
+<td style="text-align:center">33M</td>
+<td style="text-align:center">28M</td>
+<td style="text-align:center">8.8M</td>
+</tr>
+<tr>
+<td>镜像大小</td>
+<td style="text-align:center">37M</td>
+<td style="text-align:center">32M</td>
+<td style="text-align:center">12M</td>
+</tr>
+</tbody>
+</table>
+<p>镜像本身的大小在3~4M左右，当程序编译时，若采用’-s’编译选项，程序文件能进一步缩小化到25M左右，但再经过UPX压缩却效果不明显，最多只能进一步压到8M大小，而日常工作中，会需要保留一些日志数据，所以一般都只使用’-w’编译选项。</p>
+</div><div class="post-copyright"><script type="text/javascript" src="/js/copyright.js" successtext="复制成功!"></script><link rel="stylesheet" type="text/css" href="/css/copyright.css"><p><span>本文标题：</span>最小化docker镜像</p><p><span>文章作者：</span>Kami</p><p><span>发布时间：</span>Apr 20 2020</p><p><span>最后更新：</span>Jun 2 2022</p><p><span>原始链接：</span><a href="/2020/04/20/container/docker/minimum/">https://oldchan.net/2020/04/20/container/docker/minimum/</a><span class="copy-path"><i class="fa fa-clipboard" data-clipboard-text="https://oldchan.net/2020/04/20/container/docker/minimum/"></i></span></p><p><span>版权声明：</span>本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0 CN</a> 许可协议。转载请注明出处！</p></div><br><script type="text/javascript" src="/js/share.js?v=1.0.0" async></script><a class="article-share-link" data-url="https://oldchan.net/2020/04/20/container/docker/minimum/" data-id="cl3x4uloh000y2dfpk6rlmqv1" data-qrcode="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACOElEQVR42u3awW6EMAxF0fn/n6ZSV5Vo4D4nVMW5rNCIgZwsLDv254Ov4/v6eX/+5fz86JnjdI3+tfiSIUPGaxnH5TVaBH/baDv4Bl2vTYYMGfsweJC9Dq98oen23axZhgwZMsJEkGdu/LsyZMiQkRaupGQlz9fSUBkyZOzJIK8my+VlJ1n6I7W4DBkyXsioNQb+5v7x/oYMGTL+PeMIr1VH/DPHcL+sSoYMGa0ZZEFk6WlymRa0KBzLkCGjKaNWlNbK17RkDTZahgwZrRlpGyBdUDo0lpbTMmTI2IHBxyPiXQkLVxLch6uSIUPGBox0uKHWtkxL0+KYhQwZMtox0oGtlEGaoLU2AyplZciQ0ZSRNgBqqeRMa5N8S4YMGb0ZabI41TstBWIZMmTsySABLj1W42+rJZQyZMjYh5GOak2NQZS2Cb1fhgwZ2zPiQ3m8HWmBOvxFhgwZrRk8/eIDYWnpyxPKm/JYhgwZrRm1z9cGMkjjofZFGTJk7MCopW7p4vjSF0+LyJAh47WMdIiBp4kzTQJ+L0OGjH0YM8GudnzGE0f0pAwZMloz0jAaVMO4bcDfcxOyZciQ0ZQx02Jcm0qmg2LDsTAZMmS0Y8wEx1UfIKknb3/KkCGjK6MWZFeNVtTapXFnQ4YMGS0YPMjygMuTyPnQLEOGDBlPNANqW3BzaihDhgwZ4WgXb0YGQ2CjJ2XIkLEBYyaA8mYkL2vj4zwZMmS0Zqw6vufNzvkhsAX9DRkyZLyD8QXInw8sOeZMgwAAAABJRU5ErkJggg==">分享</a><div class="tags"><a href="/tags/容器化/"><i class="fa fa-tag"></i>容器化</a></div><div class="post-nav"><a class="pre" href="/2021/02/20/language/go/struct_like_class/">Go：实现类似class的析构函数</a><a class="next" href="/2020/03/11/os/cpu_and_time_management/">CPU的时间观念</a></div><div id="tcomment"></div><script src="https://fastly.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js"></script><script>twikoo.init({
+  envId: 'thecxx-1gxw7szk895715fd',
+  el: '#tcomment',
+  region: 'ap-shanghai',
+  path: ''
+})</script></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/容器/">容器</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/架构/">架构</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/笔记/">笔记</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/系统/">系统</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/编程/">编程</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/随笔/">随笔</a><span class="category-list-count">3</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/微服务/" style="font-size: 15px;">微服务</a> <a href="/tags/博客/" style="font-size: 15px;">博客</a> <a href="/tags/cpu/" style="font-size: 15px;">cpu</a> <a href="/tags/元宇宙/" style="font-size: 15px;">元宇宙</a> <a href="/tags/容器化/" style="font-size: 15px;">容器化</a> <a href="/tags/go/" style="font-size: 15px;">go</a> <a href="/tags/中间件/" style="font-size: 15px;">中间件</a> <a href="/tags/redis/" style="font-size: 15px;">redis</a> <a href="/tags/windows/" style="font-size: 15px;">windows</a> <a href="/tags/注入/" style="font-size: 15px;">注入</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2022/05/05/others/good_product/">好的产品?</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/11/17/others/internet_and_metaverse/">互联网络与元宇宙</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/05/18/arch/microservice/service/">微服务</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/04/06/arch/middleware/configuration/">配置服务迁移</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/03/30/container/docker/minimum_ext/">最小化docker镜像(补充内容)</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/02/20/language/go/struct_like_class/">Go：实现类似class的析构函数</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/04/20/container/docker/minimum/">最小化docker镜像</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/03/11/os/cpu_and_time_management/">CPU的时间观念</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/09/23/notes/redis/type_hash/">Redis：hash</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/09/10/os/windows/pe_loader/">PE文件加载器</a></li></ul></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2022 <a href="/." rel="nofollow">KAMI.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//fastly.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0" async></script><link rel="stylesheet" type="text/css" href="//fastly.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js" successtext="复制成功!"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css"><script type="text/javascript" src="/js/prettify.js?v=1.0.0"></script><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script><script type="text/javascript" src="/js/codeblock-render.js?v=1.0.0"></script></div></body></html>

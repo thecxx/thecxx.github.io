@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+    
+    
+    
+    
+  <url>
+    <loc>https://oldchan.net/2017/08/30/others/interaction/</loc>
+    <lastmod>2022-06-02T12:47:44.824Z</lastmod>
+    <data>
+        <display>
+        <title>静态博客实现动态交互</title>
+        <pubTime>2017-08-30T06:05:57.000Z</pubTime>
+        
+        <tag>博客</tag>
+         
+         
+           
+             
+              <breadCrumb title="随笔" url="https://oldchan.net/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2022/05/05/others/good_product/</loc>
+    <lastmod>2022-06-02T12:47:44.824Z</lastmod>
+    <data>
+        <display>
+        <title>好的产品?</title>
+        <pubTime>2022-05-05T08:00:38.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="随笔" url="https://oldchan.net/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2021/11/17/others/internet_and_metaverse/</loc>
+    <lastmod>2022-06-02T12:47:44.824Z</lastmod>
+    <data>
+        <display>
+        <title>互联网络与元宇宙</title>
+        <pubTime>2021-11-17T04:44:09.000Z</pubTime>
+        
+        <tag>元宇宙</tag>
+         
+         
+           
+             
+              <breadCrumb title="随笔" url="https://oldchan.net/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>https://oldchan.net/2020/03/11/os/cpu_and_time_management/</loc>
+    <lastmod>2022-06-02T12:47:44.823Z</lastmod>
+    <data>
+        <display>
+        <title>CPU的时间观念</title>
+        <pubTime>2020-03-11T08:26:21.000Z</pubTime>
+        
+        <tag>cpu</tag>
+         
+         
+           
+             
+              <breadCrumb title="系统" url="https://oldchan.net/categories/%E7%B3%BB%E7%BB%9F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2014/09/13/os/windows/ke_service_descriptor_table/</loc>
+    <lastmod>2022-06-02T12:47:44.823Z</lastmod>
+    <data>
+        <display>
+        <title>Windows系统服务描述表</title>
+        <pubTime>2014-09-13T07:47:35.000Z</pubTime>
+        
+        <tag>windows</tag>
+         
+         
+           
+             
+              <breadCrumb title="系统" url="https://oldchan.net/categories/%E7%B3%BB%E7%BB%9F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2018/09/10/os/windows/pe_loader/</loc>
+    <lastmod>2022-06-02T12:47:44.823Z</lastmod>
+    <data>
+        <display>
+        <title>PE文件加载器</title>
+        <pubTime>2018-09-10T13:39:49.000Z</pubTime>
+        
+        <tag>windows</tag>
+         
+         
+           
+             
+              <breadCrumb title="系统" url="https://oldchan.net/categories/%E7%B3%BB%E7%BB%9F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2016/05/12/os/windows/shellcode/</loc>
+    <lastmod>2022-06-02T12:47:44.823Z</lastmod>
+    <data>
+        <display>
+        <title>ShellCode For LoadLibrary</title>
+        <pubTime>2016-05-12T02:28:28.000Z</pubTime>
+        
+        <tag>注入</tag>
+         
+         
+           
+             
+              <breadCrumb title="系统" url="https://oldchan.net/categories/%E7%B3%BB%E7%BB%9F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2018/09/10/notes/redis/types/</loc>
+    <lastmod>2022-06-02T12:47:44.822Z</lastmod>
+    <data>
+        <display>
+        <title>Redis：常用数据结构</title>
+        <pubTime>2018-09-10T12:56:40.000Z</pubTime>
+        
+        <tag>redis</tag>
+         
+         
+           
+             
+              <breadCrumb title="笔记" url="https://oldchan.net/categories/%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2018/09/23/notes/redis/type_hash/</loc>
+    <lastmod>2022-06-02T12:47:44.822Z</lastmod>
+    <data>
+        <display>
+        <title>Redis：hash</title>
+        <pubTime>2018-09-23T13:04:02.000Z</pubTime>
+        
+        <tag>redis</tag>
+         
+         
+           
+             
+              <breadCrumb title="笔记" url="https://oldchan.net/categories/%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2018/08/24/notes/redis/startup/</loc>
+    <lastmod>2022-06-02T12:47:44.822Z</lastmod>
+    <data>
+        <display>
+        <title>Redis：浅析redis启动流程</title>
+        <pubTime>2018-08-24T02:42:16.000Z</pubTime>
+        
+        <tag>redis</tag>
+         
+         
+           
+             
+              <breadCrumb title="笔记" url="https://oldchan.net/categories/%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2018/09/10/language/go/when_process_exit/</loc>
+    <lastmod>2022-06-02T12:47:44.818Z</lastmod>
+    <data>
+        <display>
+        <title>Go：语言监听进程退出信号</title>
+        <pubTime>2018-09-10T11:14:30.000Z</pubTime>
+        
+        <tag>go</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程" url="https://oldchan.net/categories/%E7%BC%96%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2021/02/20/language/go/struct_like_class/</loc>
+    <lastmod>2022-06-02T12:47:44.817Z</lastmod>
+    <data>
+        <display>
+        <title>Go：实现类似class的析构函数</title>
+        <pubTime>2021-02-20T08:58:58.000Z</pubTime>
+        
+        <tag>go</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程" url="https://oldchan.net/categories/%E7%BC%96%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2021/04/06/arch/middleware/configuration/</loc>
+    <lastmod>2022-06-02T12:47:44.816Z</lastmod>
+    <data>
+        <display>
+        <title>配置服务迁移</title>
+        <pubTime>2021-04-06T10:22:44.000Z</pubTime>
+        
+        <tag>中间件</tag>
+         
+         
+           
+             
+              <breadCrumb title="架构" url="https://oldchan.net/categories/%E6%9E%B6%E6%9E%84/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2020/04/20/container/docker/minimum/</loc>
+    <lastmod>2022-06-02T12:47:44.816Z</lastmod>
+    <data>
+        <display>
+        <title>最小化docker镜像</title>
+        <pubTime>2020-04-20T08:58:58.000Z</pubTime>
+        
+        <tag>容器化</tag>
+         
+         
+           
+             
+              <breadCrumb title="容器" url="https://oldchan.net/categories/%E5%AE%B9%E5%99%A8/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2021/03/30/container/docker/minimum_ext/</loc>
+    <lastmod>2022-06-02T12:47:44.816Z</lastmod>
+    <data>
+        <display>
+        <title>最小化docker镜像(补充内容)</title>
+        <pubTime>2021-03-30T12:58:58.000Z</pubTime>
+        
+        <tag>容器化</tag>
+         
+         
+           
+             
+              <breadCrumb title="容器" url="https://oldchan.net/categories/%E5%AE%B9%E5%99%A8/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2021/05/18/arch/microservice/service/</loc>
+    <lastmod>2022-06-02T12:47:44.815Z</lastmod>
+    <data>
+        <display>
+        <title>微服务</title>
+        <pubTime>2021-05-18T10:22:44.000Z</pubTime>
+        
+        <tag>微服务</tag>
+         
+         
+           
+             
+              <breadCrumb title="架构" url="https://oldchan.net/categories/%E6%9E%B6%E6%9E%84/"/>
+          
+        </display>
+    </data>
+    </url>
+
+</urlset>
