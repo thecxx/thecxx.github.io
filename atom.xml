@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://oldchan.net/"/>
-  <updated>2022-06-02T12:47:44.824Z</updated>
+  <updated>2022-07-08T14:36:43.113Z</updated>
   <id>https://oldchan.net/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>5年前，决定不再精进PHP</title>
+    <link href="https://oldchan.net/2022/06/15/short/technology_hysteresis_and_powerlessness/"/>
+    <id>https://oldchan.net/2022/06/15/short/technology_hysteresis_and_powerlessness/</id>
+    <published>2022-06-15T13:54:24.000Z</published>
+    <updated>2022-07-08T14:36:43.113Z</updated>
+    
+    <content type="html"><![CDATA[<p>选择一种技术作为谋生手段，需要观察市场需求变化。</p><p>那时，PHP正如日中天，市场中由PHP参与开发的产品种类繁多，作为一门擅长快速迭代业务的编程语言，在大中小企业中已经使用了不少年头，闻风而来的年轻从业者也越来越多，但行业经过那几年的发展，知名App的出现周期也变得越来越长，很长一段时间，这种不详的感觉一直飘荡在脑海中。</p><p>对于企业而言，钱难赚时，就得学会节约，高性能低成本的架构和编程语言必然成为市场中的新需求。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;选择一种技术作为谋生手段，需要观察市场需求变化。&lt;/p&gt;
+&lt;p&gt;那时，PHP正如日中天，市场中由PHP参与开发的产品种类繁多，作为一门擅长快速迭代业务的编程语言，在大中小企业中已经使用了不少年头，闻风而来的年轻从业者也越来越多，但行业经过那几年的发展，知名App的出现周期也
+      
+    
+    </summary>
+    
+      <category term="短说" scheme="https://oldchan.net/categories/%E7%9F%AD%E8%AF%B4/"/>
+    
+    
+      <category term="思考" scheme="https://oldchan.net/tags/%E6%80%9D%E8%80%83/"/>
+    
+  </entry>
+  
+  <entry>
     <title>好的产品?</title>
     <link href="https://oldchan.net/2022/05/05/others/good_product/"/>
     <id>https://oldchan.net/2022/05/05/others/good_product/</id>
     <published>2022-05-05T08:00:38.000Z</published>
-    <updated>2022-06-02T12:47:44.824Z</updated>
+    <updated>2022-07-08T13:19:58.603Z</updated>
     
     <content type="html"><![CDATA[<p><strong>“功能强大”</strong></p><p>追求功能强大，似乎是一种魔咒，存在于专业人士的思维里，理所应当的，功能强大的产品能完成更多的可预料到的功能。</p><p>这种产品的价值，懂的人自然会懂，不懂的人却很难愿意为“多余”的功能支付成本。当缺少替代方案时，或许愿意追加成本，但假如出现了另一款类似功能的产品，并且功能简单到能满足用户需求，相对的，由于功能简单，研发投入的成本也会相应的低一些，需要用户支付的成本也会低一些，这个时候，用户又会怎么选择呢？</p><p>为什么总会做出一款功能强大到超出很多用户需求的产品呢？想想主要原因应该有以下几点</p><ol><li>产品功能足够丰富、强大，可以覆盖到更多的用户群体</li><li>更多专业的功能，能解决很多难度较高的问题</li><li>高端产品售价更高，利润更可观</li></ol><p>基于以上的类似原因，开发者一般会孜孜不倦地在各种专业、多余的功能上投入巨大的精力和成本，那么对于开发者而言，投入的成本又怎么收回呢？</p><a id="more"></a><p><strong>“概念较多、操作复杂、不够便捷”</strong></p><p>接手过一个项目，这个项目的业务层面上定义了很多很专业的概念，任何非专业的人在使用时都会提出大量的疑问，主要是询问类似：“***是什么意思？”之类的问题，项目也有一些对外的使用手册，但使用手册上仍然引用的是很多专业的名词。</p><p>经过如此反复的客户来咨询类似的问题，加上自己也在梳理项目时，发现确实有很多的复杂性概念需要项目的维护人员给出解释。于是与之前的项目负责人进行了一些沟通，得到了一句看似很合理却又不是很自然的一句话：“啊？这么简单，文档都写了，他们还看不懂？”</p><p>“知识的诅咒”，又称“专家盲点”，是一种认知偏差，指人在与他人交流的时候，下意识地假设对方拥有理解所需要的背景知识。在认知传授时，尽可能让自己意识到，对方可能什么都不懂。同样在设计产品时，也需有明确的目标用户定位，给予不同的上手引导，如：新手、使用过类似产品、骨灰级用户等等。</p><p>随着行业的逐步发展，当用户的使用习惯，操作心智也得到了培养之后，产品的引导就会更加容易一些，最开始的Android APP没有很统一的界面交互方案，也是慢慢地才统一到手机屏幕的下方，从此就成为了比较标准的交互布局。</p><p>总之而言，用户在实际使用产品之前，都应该尽可能地精简步骤，保证产品能尽快呈现到用户的面前，在用户心智中，实际使用产品之前的每个额外环节，可能每一个环节都会给产品减一次分。</p><p><strong>“用户成本”</strong></p><p>用户在使用一款产品时，总是期望获得一些东西，如：帮助类功能(主要是通过节省时间，精力，钱等完成某些事)、娱乐方式、比较好奇的内容、欢乐的心情、重要信息等等。</p><p>用户获取这些产品带来的效果的过程中，总是要付出一些时间，精力，钱财或者其他，这些都是用户的成本，而且投入越多，产品在用户心智中的价值需要大于或等于用户付出的成本，否则用户是不会那么乐意买单的。</p><p>用户对于产品的成本支出止于需求得到满足，更多的功能带来的多余成本支出，并非所有用户都愿意支付这部分溢价。</p>]]></content>
     
@@ -40,7 +66,7 @@
     
     </summary>
     
-      <category term="随笔" scheme="https://oldchan.net/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="长话" scheme="https://oldchan.net/categories/%E9%95%BF%E8%AF%9D/"/>
     
     
   </entry>
@@ -50,7 +76,7 @@
     <link href="https://oldchan.net/2021/11/17/others/internet_and_metaverse/"/>
     <id>https://oldchan.net/2021/11/17/others/internet_and_metaverse/</id>
     <published>2021-11-17T04:44:09.000Z</published>
-    <updated>2022-07-08T12:58:19.497Z</updated>
+    <updated>2022-07-08T13:27:04.193Z</updated>
     
     <content type="html"><![CDATA[<p>上世纪60年代诞生的ARPANET，最初的目标是为了降低在战争时期，中心化控制机制带来的高风险问题，采用单点互联构建分布式去中心化网络可以大大降低系统风险。</p><p>之后，基于ARPANET的成果又诞生了互联网，用于解决ARPANET无法解决的<strong>“无法做到和个别计算机网络交流”</strong>问题。</p><p>再经过几十年的发展，又陆续诞生了许多基于TCP/IP协议产生的各种网络应用。</p><p>TCP/IP作为标准通信协议，基于TCP/IP协议互联的设备组成的网络即可称之为互联网。近几十年，发展最快的互联网应用莫过于Web网络，让信息分享越来越简单。</p><a id="more"></a><h2 id="元宇宙"><a href="#元宇宙" class="headerlink" title="元宇宙"></a>元宇宙</h2><p><strong>“或称为後設宇宙、形上宇宙、元界、超感空间、虚空间，被用来描述一个未来和去中心化的在线虚拟环境。”</strong></p><p>以上是<a href="https://zh.wikipedia.org/wiki/%E5%85%83%E5%AE%87%E5%AE%99" target="_blank" rel="noopener">维基百科</a>的简单定义，直观体会跟<strong>万物互联</strong>，<strong>全真互联</strong>精髓是一致的，但补充定义上更强调了进一步的交互方案，更像是类似<strong>《头号玩家》</strong>中描述的交互体验。</p><h2 id="始至终"><a href="#始至终" class="headerlink" title="始至终"></a>始至终</h2><p>互联网的发展自始至终的目标都很清晰：提升信息沟通效率，降低成本。如同人与人之间的对话，最低效的沟通莫过于驴唇不对马嘴，生物作为“意识+肢体”结合产生的个体，意识与意识之间需要透过肢体协作才能交流，又或者需要透过外部复杂环境才能交流(地理位置、语种、视听语言障碍等等)，这都是交流的成本。</p><p>互联网的出现之所以普及，在于它能让人足不出户，就可以和任何人交流(电话、短信、微信、QQ)，足不出户就可以和全世界的人一起互动娱乐，学习，乃至生活的方方面面，甚至会有人沉迷于互联网络的虚拟世界中。</p><p>对于商业公司而言，需要新鲜的故事才能满足公司运作的需要，才能更好的发展。但对于科技的发展，元宇宙的当前定义或许还不到最终目标的10%，如果互联网能以最高效的方式连接<strong>「意识」</strong>，最大程度上降低现实世界中的沟通成本，也许就是达到了发展的终极目标，小时候看《黑客帝国》时，就在想，这插一下网线，想做什么就能做什么，想学什么瞬间就会，多爽啊，<strong>脑机交互</strong>始终是未来的一个很大的研究课题。</p><p>想象一下：<strong>人们通过佩戴一个头盔，或者内嵌脑机交互芯片，又或者后脑勺有一个网口，随时随地，连睡觉时依然能保持正常的日常生活(当然是在一个开放的虚拟世界中)，我在地球，你在火星，透过虚拟世界，实现面对面沟通。</strong></p><h2 id="新的变化"><a href="#新的变化" class="headerlink" title="新的变化"></a>新的变化</h2><p>Q：元宇宙与WEB3.0？</p><p>A：元宇宙与WEB3.0是同级别产品，但元宇宙的应用包含的维度更广。</p><p>Q：互联网与元宇宙？</p><p>A：元宇宙的建设包含先前技术的方方面面，元宇宙需要基于现有互联网络进行建设。</p><p>Q：元宇宙只有一个吗？</p><p>A：元宇宙最可能的结构是存在多个，<strong>主宇宙</strong>与<strong>私有宇宙</strong>。</p><p>Q：元宇宙能带来哪些商业变革？</p><p>A：元宇宙会建设成类似平台的模式，用户进入元宇宙的成本不能太高，因此交互设备的价格需要能让大众接受或者付费进入(共享设备或按时计费)。在元宇宙中，会存在虚拟商家，用户与虚拟商家的交互会在现实中得到体现。既然存在多个元宇宙，那用户怎么选择呢，是不是还需要一个导航？</p><h2 id="版本迭代"><a href="#版本迭代" class="headerlink" title="版本迭代"></a>版本迭代</h2><h3 id="v1-0：肢体沟通，面对面沟通"><a href="#v1-0：肢体沟通，面对面沟通" class="headerlink" title="v1.0：肢体沟通，面对面沟通"></a>v1.0：肢体沟通，面对面沟通</h3><p>原始阶段，需要面对面沟通，并且语种能互相识别，或者尽量少的语言视听障碍。</p><p><img src="https://oldchan.net/s1/img/2021/11/17/0199d4dd592bb2d76e3a6968ec769362.png" alt></p><h3 id="v2-0：通信方案、设备，传输介质"><a href="#v2-0：通信方案、设备，传输介质" class="headerlink" title="v2.0：通信方案、设备，传输介质"></a>v2.0：通信方案、设备，传输介质</h3><p>存在中间传输层，如：书信，传信人，留言记录，电话，手机，im软件。</p><p><img src="https://oldchan.net/s1/img/2021/11/17/0b14be023e9f288051e878da40e7f5be.png" alt></p><p><img src="https://oldchan.net/s1/img/2021/11/17/18c526964f97346cc33497443951b9fe.png" alt></p><h3 id="v3-0：VR，视频，语音，仿生技术，增强现实技术"><a href="#v3-0：VR，视频，语音，仿生技术，增强现实技术" class="headerlink" title="v3.0：VR，视频，语音，仿生技术，增强现实技术"></a>v3.0：VR，视频，语音，仿生技术，增强现实技术</h3><p>主要目标是进一步解放手动操作，降低操作性，反馈体验更加真实，并进一步提升通信效率。</p><h4 id="一-操作技术"><a href="#一-操作技术" class="headerlink" title="一. 操作技术"></a>一. 操作技术</h4><ul><li>NLP(支持实时同声交互)</li><li>AI(交互容错)</li><li>肢体动作识别(辅助操作)</li></ul><h4 id="二-反馈技术"><a href="#二-反馈技术" class="headerlink" title="二. 反馈技术"></a>二. 反馈技术</h4><ul><li>VR</li><li>特效模拟</li><li>场景模拟</li><li>感官模拟</li></ul><h4 id="三-辅助技术"><a href="#三-辅助技术" class="headerlink" title="三. 辅助技术"></a>三. 辅助技术</h4><ul><li>3D建模</li></ul><h3 id="v4-0：脑机交互，虚拟世界与现实世界互联"><a href="#v4-0：脑机交互，虚拟世界与现实世界互联" class="headerlink" title="v4.0：脑机交互，虚拟世界与现实世界互联"></a>v4.0：脑机交互，虚拟世界与现实世界互联</h3><p>发展到这个阶段，只需要通过意识，便能完成交互。</p><p>其中最关键的两项技术：一项是<strong>脑机交互技术</strong>，另一项是<strong>高效率的无线通信技术</strong>。</p><h4 id="一-脑机交互技术"><a href="#一-脑机交互技术" class="headerlink" title="一. 脑机交互技术"></a>一. 脑机交互技术</h4><p>解读所有大脑信号，实现意识与世界(虚拟世界或现实世界)的交互，并将结果反馈给大脑。</p><h4 id="二-超长距离高效率的无线通信技术"><a href="#二-超长距离高效率的无线通信技术" class="headerlink" title="二. 超长距离高效率的无线通信技术"></a>二. 超长距离高效率的无线通信技术</h4><p>有线通信技术，在不断扩大规模的情况下，成本也会不断增加，同时也会遇到很多现实世界的局限，未来星际发展，难道要直连一条从地球到火星的网线吗？</p><p><img src="https://oldchan.net/s1/img/2021/11/17/971a1e7f61960521f5f75f471f569f6a.png" alt></p><h3 id="v5-0：《铳梦》，《超验骇客》"><a href="#v5-0：《铳梦》，《超验骇客》" class="headerlink" title="v5.0：《铳梦》，《超验骇客》"></a>v5.0：《铳梦》，《超验骇客》</h3><p>当意识的构成被彻底研究透彻，科技可以对意识加以干扰和修改，配合优于人类意识的AI系统，作为人而存在的个体是否还需要肉体？所有的意识组件都被电子系统替代，如<strong>忒修斯之船</strong>一样，我们还是我们，但我们却也不是原来的我们。</p><p>到这里，我们不经提出几个问题：</p><ol><li>人类还需要生殖繁衍吗？</li><li>人类意识与AI意识怎么共存？</li><li>在虚拟世界中，每一个具备意识的个体，这份意识可能出自人类，也可能是被系统创造出来的？</li><li>在虚拟世界中，由系统创造出来的AI意识是不是原住民？</li></ol><p>很多不错的科幻电影都描述了这些很可能会到来的未来，身体是束缚意识的枷锁，电影《超验骇客》中，<strong>威尔</strong>的意识第一次进入电脑，进入网络中时，感叹，思维从未如此轻松。</p>]]></content>
     
@@ -63,7 +89,7 @@
     
     </summary>
     
-      <category term="随笔" scheme="https://oldchan.net/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="长话" scheme="https://oldchan.net/categories/%E9%95%BF%E8%AF%9D/"/>
     
     
       <category term="元宇宙" scheme="https://oldchan.net/tags/%E5%85%83%E5%AE%87%E5%AE%99/"/>
@@ -343,7 +369,7 @@
     <link href="https://oldchan.net/2017/08/30/others/interaction/"/>
     <id>https://oldchan.net/2017/08/30/others/interaction/</id>
     <published>2017-08-30T06:05:57.000Z</published>
-    <updated>2022-06-02T12:47:44.824Z</updated>
+    <updated>2022-07-08T13:19:58.603Z</updated>
     
     <content type="html"><![CDATA[<p>静态博客没有动态的脚本，都是html/js/css形式的文件组成，想要实现动态的交互，需要借助第三方的一些渠道来实现。在之前，我的博客都是使用<del><strong><a href="#">多说</a></strong>(服务已经关闭)</del>来做动态评论，但是今天发现多说原来已经关闭了，于是重新找了一个替代服务：<strong><a href="//changyan.kuaizhan.com">搜狐畅言</a></strong>。</p><a id="more"></a><h2 id="申请畅言帐号"><a href="#申请畅言帐号" class="headerlink" title="申请畅言帐号"></a>申请畅言帐号</h2><p>首先，进去<a href="//changyan.kuaizhan.com">搜狐畅言</a>注册帐号，按照提示，一步一步对自己的站点做好配置，主要的一点是，畅言的站点必须备案过，还要过审核还能正常使用，不然只能使用15天。</p><h2 id="安装畅言代码"><a href="#安装畅言代码" class="headerlink" title="安装畅言代码"></a>安装畅言代码</h2><p>对于外挂式评论功能模块，都会提供一份嵌入代码，畅言也在帐号的管理后台提供了一份嵌入代码，代码提供三中平台使用，PC、WAP、自适应，我选择使用自适应的那份代码。</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--PC和WAP自适应版--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"SOHUCS"</span> &gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="undefined"> </span></span><br><span class="line"><span class="undefined">  (function()&#123; </span></span><br><span class="line"><span class="undefined">    var appid = '畅言帐号提供的应用ID'; </span></span><br><span class="line"><span class="undefined">    var conf  = '畅言帐号提供的配置ID'; </span></span><br><span class="line"><span class="undefined">    var width = window.innerWidth || document.documentElement.clientWidth; </span></span><br><span class="line"><span class="undefined">    if (width &lt; 960) &#123; </span></span><br><span class="line"><span class="xml">      window.document.write('<span class="tag">&lt;<span class="name">script</span> <span class="attr">id</span>=<span class="string">"changyan_mobile_js"</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&amp;conf=' + conf + '"</span>&gt;</span><span class="xml"><span class="tag">&lt;<span class="name">\</span>/<span class="attr">script</span>&gt;</span>');</span></span></span><br><span class="line"><span class="undefined">    &#125; else &#123;</span></span><br><span class="line"><span class="undefined">        var loadJs=function(d, a) &#123;</span></span><br><span class="line"><span class="undefined">            var c = document.getElementsByTagName("head")[0] || document.head || document.documentElement;</span></span><br><span class="line"><span class="undefined">            var b = document.createElement("script");</span></span><br><span class="line"><span class="undefined">                b.setAttribute("type","text/javascript");</span></span><br><span class="line"><span class="undefined">                b.setAttribute("charset","UTF-8");</span></span><br><span class="line"><span class="undefined">                b.setAttribute("src",d);</span></span><br><span class="line"><span class="undefined">            if(typeof a === "function") &#123;</span></span><br><span class="line"><span class="undefined">                if(window.attachEvent) &#123;</span></span><br><span class="line"><span class="undefined">                    b.onreadystatechange = function() &#123;</span></span><br><span class="line"><span class="undefined">                        var e = b.readyState;</span></span><br><span class="line"><span class="undefined">                        if(e === "loaded" || e === "complete") &#123;</span></span><br><span class="line"><span class="undefined">                            b.onreadystatechange = null;</span></span><br><span class="line"><span class="undefined">                            a()</span></span><br><span class="line"><span class="undefined">                        &#125;</span></span><br><span class="line"><span class="undefined">                    &#125;</span></span><br><span class="line"><span class="undefined">                &#125; else &#123;</span></span><br><span class="line"><span class="undefined">                    b.onload =a</span></span><br><span class="line"><span class="undefined">                &#125;</span></span><br><span class="line"><span class="undefined">            &#125;</span></span><br><span class="line"><span class="undefined">            c.appendChild(b)</span></span><br><span class="line"><span class="undefined">        &#125;;</span></span><br><span class="line"><span class="undefined">        loadJs("https://changyan.sohu.com/upload/changyan.js", function() &#123;</span></span><br><span class="line"><span class="undefined">            window.changyan.api.config(&#123;appid:appid,conf:conf&#125;)</span></span><br><span class="line"><span class="undefined">        &#125;);</span></span><br><span class="line"><span class="undefined">    &#125;</span></span><br><span class="line"><span class="undefined">  &#125;)();</span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><p>以上代码，嵌入到需要使用评论框的地方即可。</p><h2 id="评论管理"><a href="#评论管理" class="headerlink" title="评论管理"></a>评论管理</h2><p>到这里，任何在博客里评论的内容都能通过畅言的后台进行管理了，另外畅言还提供一些其他的互动功能，包括任务、点赞之类的功能也比较丰富。其次，畅言还提供一个chrome扩展用来方便的直接在博客页面管理评论。</p>]]></content>
     
@@ -353,7 +379,7 @@
     
     </summary>
     
-      <category term="随笔" scheme="https://oldchan.net/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="长话" scheme="https://oldchan.net/categories/%E9%95%BF%E8%AF%9D/"/>
     
     
       <category term="博客" scheme="https://oldchan.net/tags/%E5%8D%9A%E5%AE%A2/"/>
