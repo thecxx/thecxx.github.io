@@ -2,30 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://oldchan.net/2020/03/11/os/cpu_and_time_management/</loc>
+    <loc>https://oldchan.net/2021/11/17/others/internet_and_metaverse/</loc>
     
-    <lastmod>2022-06-02T14:51:37.064Z</lastmod>
+    <lastmod>2022-07-08T12:58:19.497Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://oldchan.net/2021/04/06/arch/middleware/configuration/</loc>
+    <loc>https://oldchan.net/2020/03/11/os/cpu_and_time_management/</loc>
     
-    <lastmod>2022-06-02T14:51:37.059Z</lastmod>
+    <lastmod>2022-07-08T12:58:19.475Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://oldchan.net/2020/04/20/container/docker/minimum/</loc>
     
-    <lastmod>2022-06-02T14:51:37.055Z</lastmod>
+    <lastmod>2022-07-08T12:58:19.475Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://oldchan.net/2021/11/17/others/internet_and_metaverse/</loc>
+    <loc>https://oldchan.net/2021/04/06/arch/middleware/configuration/</loc>
     
-    <lastmod>2022-06-02T14:51:37.051Z</lastmod>
+    <lastmod>2022-07-08T12:58:19.475Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://oldchan.net/s1/README.html</loc>
+    
+    <lastmod>2022-07-08T12:46:55.291Z</lastmod>
     
   </url>
   
@@ -37,14 +44,14 @@
   </url>
   
   <url>
-    <loc>https://oldchan.net/guestbook/index.html</loc>
+    <loc>https://oldchan.net/history/index.html</loc>
     
     <lastmod>2022-06-02T12:47:44.826Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://oldchan.net/history/index.html</loc>
+    <loc>https://oldchan.net/guestbook/index.html</loc>
     
     <lastmod>2022-06-02T12:47:44.826Z</lastmod>
     
@@ -65,6 +72,13 @@
   </url>
   
   <url>
+    <loc>https://oldchan.net/about/index.html</loc>
+    
+    <lastmod>2022-06-02T12:47:44.824Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://oldchan.net/2017/08/30/others/interaction/</loc>
     
     <lastmod>2022-06-02T12:47:44.824Z</lastmod>
@@ -72,9 +86,9 @@
   </url>
   
   <url>
-    <loc>https://oldchan.net/about/index.html</loc>
+    <loc>https://oldchan.net/2018/09/10/os/windows/pe_loader/</loc>
     
-    <lastmod>2022-06-02T12:47:44.824Z</lastmod>
+    <lastmod>2022-06-02T12:47:44.823Z</lastmod>
     
   </url>
   
@@ -93,21 +107,14 @@
   </url>
   
   <url>
-    <loc>https://oldchan.net/2018/09/10/os/windows/pe_loader/</loc>
-    
-    <lastmod>2022-06-02T12:47:44.823Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://oldchan.net/2018/09/10/notes/redis/types/</loc>
+    <loc>https://oldchan.net/2018/08/24/notes/redis/startup/</loc>
     
     <lastmod>2022-06-02T12:47:44.822Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://oldchan.net/2018/08/24/notes/redis/startup/</loc>
+    <loc>https://oldchan.net/2018/09/10/notes/redis/types/</loc>
     
     <lastmod>2022-06-02T12:47:44.822Z</lastmod>
     
