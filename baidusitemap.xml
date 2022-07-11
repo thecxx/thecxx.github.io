@@ -4,11 +4,11 @@
 
     
   <url>
-    <loc>https://oldchan.net/2022/06/15/short/give_up_the_php/</loc>
-    <lastmod>2022-07-08T14:40:53.913Z</lastmod>
+    <loc>https://oldchan.net/2022/06/15/others/give_up_the_php/</loc>
+    <lastmod>2022-07-11T07:21:46.137Z</lastmod>
     <data>
         <display>
-        <title>5年前，决定不再精进PHP</title>
+        <title>6年前，决定不再继续精进PHP</title>
         <pubTime>2022-06-15T13:54:24.000Z</pubTime>
         
         <tag>思考</tag>
@@ -16,7 +16,7 @@
          
            
              
-              <breadCrumb title="短说" url="https://oldchan.net/categories/%E7%9F%AD%E8%AF%B4/"/>
+              <breadCrumb title="长话" url="https://oldchan.net/categories/%E9%95%BF%E8%AF%9D/"/>
           
         </display>
     </data>
@@ -102,26 +102,6 @@
 
     
   <url>
-    <loc>https://oldchan.net/2020/03/11/os/cpu_and_time_management/</loc>
-    <lastmod>2022-07-08T12:58:19.475Z</lastmod>
-    <data>
-        <display>
-        <title>CPU的时间观念</title>
-        <pubTime>2020-03-11T08:26:21.000Z</pubTime>
-        
-        <tag>cpu</tag>
-         
-         
-           
-             
-              <breadCrumb title="系统" url="https://oldchan.net/categories/%E7%B3%BB%E7%BB%9F/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://oldchan.net/2021/04/06/arch/middleware/configuration/</loc>
     <lastmod>2022-07-08T12:58:19.475Z</lastmod>
     <data>
@@ -135,6 +115,26 @@
            
              
               <breadCrumb title="架构" url="https://oldchan.net/categories/%E6%9E%B6%E6%9E%84/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2020/03/11/os/cpu_and_time_management/</loc>
+    <lastmod>2022-07-08T12:58:19.475Z</lastmod>
+    <data>
+        <display>
+        <title>CPU的时间观念</title>
+        <pubTime>2020-03-11T08:26:21.000Z</pubTime>
+        
+        <tag>cpu</tag>
+         
+         
+           
+             
+              <breadCrumb title="系统" url="https://oldchan.net/categories/%E7%B3%BB%E7%BB%9F/"/>
           
         </display>
     </data>
