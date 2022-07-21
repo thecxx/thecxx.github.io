@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://oldchan.net/2022/07/10/notes/golang/advanced/g0/</loc>
+    
+    <lastmod>2022-07-21T07:19:38.422Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://oldchan.net/2021/11/17/opinion/internet_and_metaverse/</loc>
     
     <lastmod>2022-07-13T05:12:42.609Z</lastmod>
@@ -37,14 +44,14 @@
   </url>
   
   <url>
-    <loc>https://oldchan.net/2020/04/20/container/docker/minimum/</loc>
+    <loc>https://oldchan.net/2021/04/06/arch/middleware/configuration/</loc>
     
     <lastmod>2022-07-08T12:58:19.475Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://oldchan.net/2021/04/06/arch/middleware/configuration/</loc>
+    <loc>https://oldchan.net/2020/04/20/container/docker/minimum/</loc>
     
     <lastmod>2022-07-08T12:58:19.475Z</lastmod>
     
@@ -65,14 +72,14 @@
   </url>
   
   <url>
-    <loc>https://oldchan.net/history/index.html</loc>
+    <loc>https://oldchan.net/guestbook/index.html</loc>
     
     <lastmod>2022-06-02T12:47:44.826Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://oldchan.net/guestbook/index.html</loc>
+    <loc>https://oldchan.net/history/index.html</loc>
     
     <lastmod>2022-06-02T12:47:44.826Z</lastmod>
     
@@ -100,13 +107,6 @@
   </url>
   
   <url>
-    <loc>https://oldchan.net/2016/05/12/os/windows/shellcode/</loc>
-    
-    <lastmod>2022-06-02T12:47:44.823Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://oldchan.net/2018/09/10/os/windows/pe_loader/</loc>
     
     <lastmod>2022-06-02T12:47:44.823Z</lastmod>
@@ -114,7 +114,14 @@
   </url>
   
   <url>
-    <loc>https://oldchan.net/2018/09/23/notes/redis/type_hash/</loc>
+    <loc>https://oldchan.net/2016/05/12/os/windows/shellcode/</loc>
+    
+    <lastmod>2022-06-02T12:47:44.823Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://oldchan.net/2018/08/24/notes/redis/startup/</loc>
     
     <lastmod>2022-06-02T12:47:44.822Z</lastmod>
     
@@ -128,7 +135,7 @@
   </url>
   
   <url>
-    <loc>https://oldchan.net/2018/08/24/notes/redis/startup/</loc>
+    <loc>https://oldchan.net/2018/09/23/notes/redis/type_hash/</loc>
     
     <lastmod>2022-06-02T12:47:44.822Z</lastmod>
     

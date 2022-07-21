@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>https://oldchan.net/2022/07/10/notes/golang/advanced/g0/</loc>
+    <lastmod>2022-07-21T07:19:38.422Z</lastmod>
+    <data>
+        <display>
+        <title>Golang高级解读：g0</title>
+        <pubTime>2022-07-10T12:56:40.000Z</pubTime>
+        
+        <tag>golang</tag>
+         
+         
+           
+             
+              <breadCrumb title="笔记" url="https://oldchan.net/categories/%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://oldchan.net/2021/11/17/opinion/internet_and_metaverse/</loc>
     <lastmod>2022-07-13T05:12:42.609Z</lastmod>
     <data>
@@ -102,26 +122,6 @@
 
     
   <url>
-    <loc>https://oldchan.net/2020/04/20/container/docker/minimum/</loc>
-    <lastmod>2022-07-08T12:58:19.475Z</lastmod>
-    <data>
-        <display>
-        <title>最小化docker镜像</title>
-        <pubTime>2020-04-20T08:58:58.000Z</pubTime>
-        
-        <tag>容器化</tag>
-         
-         
-           
-             
-              <breadCrumb title="容器" url="https://oldchan.net/categories/%E5%AE%B9%E5%99%A8/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://oldchan.net/2021/04/06/arch/middleware/configuration/</loc>
     <lastmod>2022-07-08T12:58:19.475Z</lastmod>
     <data>
@@ -141,6 +141,26 @@
     </url>
 
     
+  <url>
+    <loc>https://oldchan.net/2020/04/20/container/docker/minimum/</loc>
+    <lastmod>2022-07-08T12:58:19.475Z</lastmod>
+    <data>
+        <display>
+        <title>最小化docker镜像</title>
+        <pubTime>2020-04-20T08:58:58.000Z</pubTime>
+        
+        <tag>容器化</tag>
+         
+         
+           
+             
+              <breadCrumb title="容器" url="https://oldchan.net/categories/%E5%AE%B9%E5%99%A8/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
     
@@ -154,6 +174,26 @@
         <display>
         <title>Windows系统服务描述表</title>
         <pubTime>2014-09-13T07:47:35.000Z</pubTime>
+        
+        <tag>windows</tag>
+         
+         
+           
+             
+              <breadCrumb title="系统" url="https://oldchan.net/categories/%E7%B3%BB%E7%BB%9F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2018/09/10/os/windows/pe_loader/</loc>
+    <lastmod>2022-06-02T12:47:44.823Z</lastmod>
+    <data>
+        <display>
+        <title>PE文件加载器</title>
+        <pubTime>2018-09-10T13:39:49.000Z</pubTime>
         
         <tag>windows</tag>
          
@@ -188,32 +228,12 @@
 
     
   <url>
-    <loc>https://oldchan.net/2018/09/10/os/windows/pe_loader/</loc>
-    <lastmod>2022-06-02T12:47:44.823Z</lastmod>
-    <data>
-        <display>
-        <title>PE文件加载器</title>
-        <pubTime>2018-09-10T13:39:49.000Z</pubTime>
-        
-        <tag>windows</tag>
-         
-         
-           
-             
-              <breadCrumb title="系统" url="https://oldchan.net/categories/%E7%B3%BB%E7%BB%9F/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://oldchan.net/2018/09/23/notes/redis/type_hash/</loc>
+    <loc>https://oldchan.net/2018/08/24/notes/redis/startup/</loc>
     <lastmod>2022-06-02T12:47:44.822Z</lastmod>
     <data>
         <display>
-        <title>Redis：hash</title>
-        <pubTime>2018-09-23T13:04:02.000Z</pubTime>
+        <title>Redis：浅析redis启动流程</title>
+        <pubTime>2018-08-24T02:42:16.000Z</pubTime>
         
         <tag>redis</tag>
          
@@ -248,12 +268,12 @@
 
     
   <url>
-    <loc>https://oldchan.net/2018/08/24/notes/redis/startup/</loc>
+    <loc>https://oldchan.net/2018/09/23/notes/redis/type_hash/</loc>
     <lastmod>2022-06-02T12:47:44.822Z</lastmod>
     <data>
         <display>
-        <title>Redis：浅析redis启动流程</title>
-        <pubTime>2018-08-24T02:42:16.000Z</pubTime>
+        <title>Redis：hash</title>
+        <pubTime>2018-09-23T13:04:02.000Z</pubTime>
         
         <tag>redis</tag>
          
