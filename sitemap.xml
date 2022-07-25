@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://oldchan.net/2022/07/24/notes/golang/advanced/m/</loc>
+    
+    <lastmod>2022-07-25T05:25:14.813Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://oldchan.net/2022/07/10/notes/golang/advanced/g0/</loc>
     
     <lastmod>2022-07-21T12:31:36.386Z</lastmod>
@@ -107,14 +114,14 @@
   </url>
   
   <url>
-    <loc>https://oldchan.net/2016/05/12/os/windows/shellcode/</loc>
+    <loc>https://oldchan.net/2014/09/13/os/windows/ke_service_descriptor_table/</loc>
     
     <lastmod>2022-06-02T12:47:44.823Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://oldchan.net/2014/09/13/os/windows/ke_service_descriptor_table/</loc>
+    <loc>https://oldchan.net/2016/05/12/os/windows/shellcode/</loc>
     
     <lastmod>2022-06-02T12:47:44.823Z</lastmod>
     
@@ -128,14 +135,14 @@
   </url>
   
   <url>
-    <loc>https://oldchan.net/2018/09/10/notes/redis/types/</loc>
+    <loc>https://oldchan.net/2018/08/24/notes/redis/startup/</loc>
     
     <lastmod>2022-06-02T12:47:44.822Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://oldchan.net/2018/08/24/notes/redis/startup/</loc>
+    <loc>https://oldchan.net/2018/09/10/notes/redis/types/</loc>
     
     <lastmod>2022-06-02T12:47:44.822Z</lastmod>
     
