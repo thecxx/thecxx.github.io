@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://oldchan.net/2022/08/15/notes/golang/advanced/p/</loc>
+    
+    <lastmod>2023-01-13T08:52:56.238Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://oldchan.net/2022/12/10/notes/golang/advanced/schedule/</loc>
+    
+    <lastmod>2023-01-13T08:31:03.675Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://oldchan.net/2022/07/10/notes/golang/advanced/list/</loc>
+    
+    <lastmod>2023-01-12T10:12:59.144Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://oldchan.net/2022/07/24/notes/golang/advanced/m/</loc>
     
     <lastmod>2022-07-25T05:25:14.813Z</lastmod>
@@ -114,14 +135,14 @@
   </url>
   
   <url>
-    <loc>https://oldchan.net/2014/09/13/os/windows/ke_service_descriptor_table/</loc>
+    <loc>https://oldchan.net/2016/05/12/os/windows/shellcode/</loc>
     
     <lastmod>2022-06-02T12:47:44.823Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://oldchan.net/2016/05/12/os/windows/shellcode/</loc>
+    <loc>https://oldchan.net/2014/09/13/os/windows/ke_service_descriptor_table/</loc>
     
     <lastmod>2022-06-02T12:47:44.823Z</lastmod>
     
@@ -135,14 +156,14 @@
   </url>
   
   <url>
-    <loc>https://oldchan.net/2018/08/24/notes/redis/startup/</loc>
+    <loc>https://oldchan.net/2018/09/10/notes/redis/types/</loc>
     
     <lastmod>2022-06-02T12:47:44.822Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://oldchan.net/2018/09/10/notes/redis/types/</loc>
+    <loc>https://oldchan.net/2018/08/24/notes/redis/startup/</loc>
     
     <lastmod>2022-06-02T12:47:44.822Z</lastmod>
     
