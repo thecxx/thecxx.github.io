@@ -4,8 +4,48 @@
 
     
   <url>
+    <loc>https://oldchan.net/2023/01/15/notes/golang/advanced/boot/</loc>
+    <lastmod>2023-01-16T09:49:35.134Z</lastmod>
+    <data>
+        <display>
+        <title>Golang深度解读：启动</title>
+        <pubTime>2023-01-15T02:24:24.000Z</pubTime>
+        
+        <tag>golang</tag>
+         
+         
+           
+             
+              <breadCrumb title="笔记" url="https://oldchan.net/categories/%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2022/07/10/notes/golang/advanced/list/</loc>
+    <lastmod>2023-01-16T09:48:00.145Z</lastmod>
+    <data>
+        <display>
+        <title>Golang深度解读</title>
+        <pubTime>2022-07-10T12:50:40.000Z</pubTime>
+        
+        <tag>golang</tag>
+         
+         
+           
+             
+              <breadCrumb title="笔记" url="https://oldchan.net/categories/%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://oldchan.net/2022/12/10/notes/golang/advanced/schedule/</loc>
-    <lastmod>2023-01-14T06:31:44.707Z</lastmod>
+    <lastmod>2023-01-14T08:21:28.320Z</lastmod>
     <data>
         <display>
         <title>Golang深度解读：调度</title>
@@ -30,26 +70,6 @@
         <display>
         <title>Golang深度解读：P</title>
         <pubTime>2022-08-15T02:20:24.000Z</pubTime>
-        
-        <tag>golang</tag>
-         
-         
-           
-             
-              <breadCrumb title="笔记" url="https://oldchan.net/categories/%E7%AC%94%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://oldchan.net/2022/07/10/notes/golang/advanced/list/</loc>
-    <lastmod>2023-01-14T01:37:46.294Z</lastmod>
-    <data>
-        <display>
-        <title>Golang深度解读</title>
-        <pubTime>2022-07-10T12:50:40.000Z</pubTime>
         
         <tag>golang</tag>
          
@@ -202,26 +222,6 @@
 
     
   <url>
-    <loc>https://oldchan.net/2020/03/11/os/cpu_and_time_management/</loc>
-    <lastmod>2022-07-08T12:58:19.475Z</lastmod>
-    <data>
-        <display>
-        <title>CPU的时间观念</title>
-        <pubTime>2020-03-11T08:26:21.000Z</pubTime>
-        
-        <tag>cpu</tag>
-         
-         
-           
-             
-              <breadCrumb title="系统" url="https://oldchan.net/categories/%E7%B3%BB%E7%BB%9F/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://oldchan.net/2021/04/06/arch/middleware/configuration/</loc>
     <lastmod>2022-07-08T12:58:19.475Z</lastmod>
     <data>
@@ -235,6 +235,26 @@
            
              
               <breadCrumb title="架构" url="https://oldchan.net/categories/%E6%9E%B6%E6%9E%84/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://oldchan.net/2020/03/11/os/cpu_and_time_management/</loc>
+    <lastmod>2022-07-08T12:58:19.475Z</lastmod>
+    <data>
+        <display>
+        <title>CPU的时间观念</title>
+        <pubTime>2020-03-11T08:26:21.000Z</pubTime>
+        
+        <tag>cpu</tag>
+         
+         
+           
+             
+              <breadCrumb title="系统" url="https://oldchan.net/categories/%E7%B3%BB%E7%BB%9F/"/>
           
         </display>
     </data>
@@ -308,6 +328,26 @@
 
     
   <url>
+    <loc>https://oldchan.net/2018/08/24/notes/redis/startup/</loc>
+    <lastmod>2022-06-02T12:47:44.822Z</lastmod>
+    <data>
+        <display>
+        <title>Redis：浅析redis启动流程</title>
+        <pubTime>2018-08-24T02:42:16.000Z</pubTime>
+        
+        <tag>redis</tag>
+         
+         
+           
+             
+              <breadCrumb title="笔记" url="https://oldchan.net/categories/%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://oldchan.net/2018/09/23/notes/redis/type_hash/</loc>
     <lastmod>2022-06-02T12:47:44.822Z</lastmod>
     <data>
@@ -334,26 +374,6 @@
         <display>
         <title>Redis：常用数据结构</title>
         <pubTime>2018-09-10T12:56:40.000Z</pubTime>
-        
-        <tag>redis</tag>
-         
-         
-           
-             
-              <breadCrumb title="笔记" url="https://oldchan.net/categories/%E7%AC%94%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://oldchan.net/2018/08/24/notes/redis/startup/</loc>
-    <lastmod>2022-06-02T12:47:44.822Z</lastmod>
-    <data>
-        <display>
-        <title>Redis：浅析redis启动流程</title>
-        <pubTime>2018-08-24T02:42:16.000Z</pubTime>
         
         <tag>redis</tag>
          
